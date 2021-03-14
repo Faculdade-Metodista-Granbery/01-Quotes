@@ -38,7 +38,7 @@ function newQuote() {
 
 async function getQuotes(){
     loading();
-    const apiUrl = 'https://type.fit/api/quotes';
+    const apiUrl = 'https://api.mocki.io/v1/c45d1807';
     try {
         const response = await fetch(apiUrl);
         apiQuotes = await response.json();
